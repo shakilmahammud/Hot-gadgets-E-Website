@@ -1,0 +1,81 @@
+
+.container{
+    margin-bottom:80px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: #ff136f;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000;
+    padding-left:25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff136f;
+}
+
+/*===============banner part css ========*/
+#banner-bg{
+    background-image: url(../image/);
+    background-repeat:no-repeat;
+}
+#banner-bg img{
+    width: 100%;
+}
+.buy-btn{
+    background-image:linear-gradient(to bottom,#000 0%,rgba(0, 0, 0, 0.842) 100%);
+    padding:9px 25px;
+    color:#fff;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top:5px;
+}
+/*================phone part css================*/
+.ph-header{
+margin-bottom: 20px;
+
+}
+.ph-header h4{
+    color:orange;
+}
+
+/*================ shoes part css================*/
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/*================ backpack part css================*/
+.card-footer{
+    border:none;
+    background:transparent;
+}
+/*================ categories part css================*/
+.cat-item-1 img{
+    box-shadow:5px 5px 10px lightgrey;
+    width: 100%;
+}
+.cat-item-2 img{
+    width:100%;
+}
+.categories h2{
+    margin-bottom: 40px;
+    position: relative;
+}
+.categories h2::before{
+    position: absolute;
+    content:'';
+    width:155px;
+    height:5px;
+    background-color: orange;
+    bottom:-10px;
+}
+/* footer part css */
+footer {
+    text-align: center;
+
+}
+footer a{
+    color: #ff136f;
+}
