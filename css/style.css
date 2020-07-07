@@ -2,25 +2,63 @@
 .container{
     margin-bottom:80px;
 }
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
-    color: #ff136f;
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:41px;
+    font-weight:500;
 }
-.navbar-light .navbar-nav .nav-link{
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size:35px;
+    font-weight:500;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+    font-weight:500;
+}
+.card-deck p{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    font-weight:300;
+    color:#707070;
+}
+/*===========nav bar css ===========*/
+.nav-container{
+    margin-bottom: 0;
+}
+.navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color:#FF9D00;
+}
+.navbar-nav .nav-link{
     color:#000;
-    padding-left:25px;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #ff136f;
+.navbar-nav .nav-link:hover{
+    color: #FF9D00;
 }
 
 /*===============banner part css ========*/
-#banner-bg{
-    background-image: url(../image/);
-    background-repeat:no-repeat;
+.container{
+    position: relative;
+}
+.container .header-bg{
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+   writing-mode: vertical-lr;
+   transform:rotate(-180deg);
+   color:#707070;
+   opacity: 0.1;
+
 }
 #banner-bg img{
     width: 100%;
+}
+#banner-bg p{
+    font-family: 'Poppins', sans-serif;;
+    color:#707070;
+    font-weight: 300;
+    font-size: 18px;
 }
 .buy-btn{
     background-image:linear-gradient(to bottom,#000 0%,rgba(0, 0, 0, 0.842) 100%);
@@ -31,6 +69,18 @@
     cursor: pointer;
     margin-bottom: 20px;
     margin-top:5px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:500;
+}
+.carousel-indicators .active{
+    background-color:#FF9D00;
+    width:30px;
+    height:5px;
+    border-radius:12px;
+}
+.carousel-indicators li{
+    width:10px;
 }
 /*================phone part css================*/
 .ph-header{
@@ -38,7 +88,10 @@ margin-bottom: 20px;
 
 }
 .ph-header h4{
-    color:orange;
+    color:#FF9D00;
+    font-size:22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
 }
 
 /*================ shoes part css================*/
@@ -54,7 +107,8 @@ margin-bottom: 20px;
 /*================ categories part css================*/
 .cat-item-1 img{
     box-shadow:10px 10px 15px lightgrey;
-    width: 100%;
+    width:100%;
+    margin-top: 15px;
 }
 .cat-item-2 img{
     width:100%;
@@ -66,10 +120,10 @@ margin-bottom: 20px;
 .categories h2::before{
     position: absolute;
     content:'';
-    width:155px;
+    width:200px;
     height:5px;
-    background-color: orange;
-    bottom:-10px;
+    background-color:#FF9D00;
+    bottom:-15px;
 }
 /* footer part css */
 footer {
@@ -77,5 +131,5 @@ footer {
 
 }
 footer a{
-    color: #ff136f;
+    color: #FF9D00;
 }
